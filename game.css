@@ -1,0 +1,45 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+body{
+   overflow: hidden;
+   background-color: black;
+}
+
+#left{
+    position: relative;
+    width: 30px;
+    height: 200px;
+    background-color: white;
+    float: left;
+}
+
+#right{
+    position: relative;
+    width: 30px;
+    height: 200px;
+    background-color: white;    
+    float: right;
+}
+
+#ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    border-radius: 50%;
+}
+
+#deli,#scoreleft,#scoreright{
+    font-size: 1000%;
+    color: white;
+    z-index: 10;
+}
+
+#goal{
+    font-size: 1000%;
+    transition: 1.5s all;
+    display: inline-block;
+}
